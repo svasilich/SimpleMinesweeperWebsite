@@ -5,7 +5,6 @@ D:\Projects\Git\SimpleMinesweeperWebsite\SimpleMinesweeperWebsite\bin\Debug\netc
 D:\Projects\Git\SimpleMinesweeperWebsite\SimpleMinesweeperWebsite\bin\Debug\netcoreapp2.1\SimpleMinesweeperWebsite.pdb
 D:\Projects\Git\SimpleMinesweeperWebsite\SimpleMinesweeperWebsite\bin\Debug\netcoreapp2.1\SimpleMinesweeperWebsite.Views.dll
 D:\Projects\Git\SimpleMinesweeperWebsite\SimpleMinesweeperWebsite\bin\Debug\netcoreapp2.1\SimpleMinesweeperWebsite.Views.pdb
-D:\Projects\Git\SimpleMinesweeperWebsite\SimpleMinesweeperWebsite\obj\Debug\netcoreapp2.1\SimpleMinesweeperWebsite.csprojAssemblyReference.cache
 D:\Projects\Git\SimpleMinesweeperWebsite\SimpleMinesweeperWebsite\obj\Debug\netcoreapp2.1\SimpleMinesweeperWebsite.csproj.CoreCompileInputs.cache
 D:\Projects\Git\SimpleMinesweeperWebsite\SimpleMinesweeperWebsite\obj\Debug\netcoreapp2.1\SimpleMinesweeperWebsite.RazorAssemblyInfo.cache
 D:\Projects\Git\SimpleMinesweeperWebsite\SimpleMinesweeperWebsite\obj\Debug\netcoreapp2.1\SimpleMinesweeperWebsite.RazorAssemblyInfo.cs
@@ -16,6 +15,7 @@ D:\Projects\Git\SimpleMinesweeperWebsite\SimpleMinesweeperWebsite\obj\Debug\netc
 D:\Projects\Git\SimpleMinesweeperWebsite\SimpleMinesweeperWebsite\obj\Debug\netcoreapp2.1\SimpleMinesweeperWebsite.RazorCoreGenerate.cache
 D:\Projects\Git\SimpleMinesweeperWebsite\SimpleMinesweeperWebsite\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
 D:\Projects\Git\SimpleMinesweeperWebsite\SimpleMinesweeperWebsite\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+D:\Projects\Git\SimpleMinesweeperWebsite\SimpleMinesweeperWebsite\obj\Debug\netcoreapp2.1\Razor\Views\Home\Donate.g.cshtml.cs
 D:\Projects\Git\SimpleMinesweeperWebsite\SimpleMinesweeperWebsite\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
 D:\Projects\Git\SimpleMinesweeperWebsite\SimpleMinesweeperWebsite\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
 D:\Projects\Git\SimpleMinesweeperWebsite\SimpleMinesweeperWebsite\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
@@ -30,4 +30,4 @@ D:\Projects\Git\SimpleMinesweeperWebsite\SimpleMinesweeperWebsite\obj\Debug\netc
 D:\Projects\Git\SimpleMinesweeperWebsite\SimpleMinesweeperWebsite\obj\Debug\netcoreapp2.1\SimpleMinesweeperWebsite.dll
 D:\Projects\Git\SimpleMinesweeperWebsite\SimpleMinesweeperWebsite\obj\Debug\netcoreapp2.1\SimpleMinesweeperWebsite.pdb
 D:\Projects\Git\SimpleMinesweeperWebsite\SimpleMinesweeperWebsite\obj\Debug\netcoreapp2.1\SimpleMinesweeperWebsite.csproj.CopyComplete
-D:\Projects\Git\SimpleMinesweeperWebsite\SimpleMinesweeperWebsite\obj\Debug\netcoreapp2.1\Razor\Views\Home\Donate.g.cshtml.cs
+D:\Projects\Git\SimpleMinesweeperWebsite\SimpleMinesweeperWebsite\obj\Debug\netcoreapp2.1\SimpleMinesweeperWebsite.csprojAssemblyReference.cache
