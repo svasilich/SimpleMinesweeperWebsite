@@ -34,6 +34,13 @@ namespace SimpleMinesweeperWebsite.Controllers
             return View();
         }
 
+        public IActionResult Donate()
+        {
+            ViewData["Message"] = "Поддержать проект рублём.";
+
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
