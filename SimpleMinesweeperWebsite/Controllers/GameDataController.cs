@@ -6,7 +6,8 @@ using System.IO;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Net.Http;
-
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace SimpleMinesweeperWebsite.Controllers
 {
@@ -24,6 +25,12 @@ namespace SimpleMinesweeperWebsite.Controllers
             string file_type = "application/x-ole-storage";
             string file_name = "SimpleMinesweeperSetup.msi";
             return PhysicalFile(file_path, file_type, file_name);
+        }
+
+        public IActionResult LastVersion()
+        {
+            Version version = new Version(1, 0, 0, 1);
+            return Json(version);
         }
     }
 }
