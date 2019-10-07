@@ -21,15 +21,17 @@ namespace SimpleMinesweeperWebsite.Controllers
 
         public IActionResult GetInstaller()
         {
-            string file_path = Path.Combine(appEnvironment.WebRootPath, "Install/SimpleMinesweeperSetup.msi");
-            string file_type = "application/x-ole-storage";
-            string file_name = "SimpleMinesweeperSetup.msi";
-            return PhysicalFile(file_path, file_type, file_name);
+            string filePath = Path.Combine(appEnvironment.WebRootPath, "Install/SimpleMinesweeperSetup.msi");
+            string fileType = "application/x-ole-storage";
+            string fileName = "SimpleMinesweeperSetup.msi";
+            return PhysicalFile(filePath, fileType, fileName);
         }
 
         public IActionResult LastVersion()
         {
-            Version version = new Version(1, 0, 0, 1);
+            string versionPath = Path.Combine(appEnvironment.WebRootPath, "Install/lastVersion.json");
+            string versionString = System.IO.File.ReadAllText(versionPath);
+            Version version = JsonConvert.DeserializeObject<Version>(versionString);
             return Json(version);
         }
     }
