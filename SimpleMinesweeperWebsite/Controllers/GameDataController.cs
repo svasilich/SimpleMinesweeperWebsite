@@ -30,7 +30,9 @@ namespace SimpleMinesweeperWebsite.Controllers
         public IActionResult LastVersion()
         {
             string versionPath = Path.Combine(appEnvironment.WebRootPath, "Install/lastVersion.json");
-            string versionString = System.IO.File.ReadAllText(versionPath);
+            //string versionString = System.IO.File.ReadAllText(versionPath);
+            var versionTask = System.IO.File.ReadAllTextAsync(versionPath);
+            string versionString = versionTask.Result;
             Version version = JsonConvert.DeserializeObject<Version>(versionString);
             return Json(version);
         }
